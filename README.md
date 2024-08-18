@@ -5,6 +5,13 @@
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
 Outline for examining network traffic between Azure Virtual Machines using Wireshark. It includes creating and configuring VMs, observing various network protocols (ICMP, SSH, DHCP, DNS, RDP) and experimenting with Network Security Groups to manage and secure traffic. This project includes hands-on experience in network traffic analysis and the practical application of network security concepts within Azure environments. <br />
 
+<h2> What is Network Security Groups (NSGs)? </h2>
+
+Network Security Groups (NSGs) are a key feature in Microsoft Azure that act as virtual firewalls. Based on security rules, they control network traffic flow to and from Azure resources, such as virtual machines and subnets. These rules determine whether traffic is allowed or denied based on factors like IP addresses, ports, and protocols. NSGs are crucial for maintaining network security, allowing administrators to manage access and protect resources effectively. Whereas Firewalls are used to protect an entire network or specific segments from unauthorized access and threats, NSGs are designed to control inbound and outbound traffic to Azure resources within a Virtual Network (VNet).
+
+<h2> What is Network Traffic? </h2>
+Network traffic refers to the flow of data over a computer network. It encompasses all the data devices send and receive, including web browsing, file transfers, emails, and streaming media. This traffic is essential for communication between devices on the network and can be monitored to ensure smooth operation, diagnose issues, and maintain security.
+
 <h2>What is Wireshark</h2>
 Wireshark is a popular open-source network protocol analyzer used for network troubleshooting, analysis, and education. It allows users to capture and examine the data traveling across a network in real time. Wireshark is widely used by network administrators, security professionals, and developers to troubleshoot network issues, optimize performance, and ensure security. Its comprehensive analysis capabilities make it an essential tool for anyone involved in managing or developing networked systems.
 
