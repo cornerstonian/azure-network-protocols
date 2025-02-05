@@ -76,12 +76,11 @@ Part 2 (Observe ICMP Traffic)
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</br>
 
 - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+</br>
 - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using
 - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 - Stop the ping activity
@@ -98,7 +97,7 @@ Part 4 (Observe DHCP Traffic)
 - From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
 - Observe the DHCP traffic appearing in WireShark
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</br>
 
 Part 5 (Observe DNS Traffic)
 - Back in Wireshark, filter for DNS traffic only
