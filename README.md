@@ -47,9 +47,9 @@ Key features:
 - Observe RDP Traffic (Bonus)
 
 <h2>Actions and Observations</h2>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Isgwhq9.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6jq6S7W.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/786zLwc.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 Part 1 (Create our Resources)
@@ -61,7 +61,7 @@ Part 1 (Create our Resources)
 - While create the VM, select the previously created Resource Group and Vnet
 - Observe Your Virtual Network within Network Watcher
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XkL2ncc.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Part 2 (Observe ICMP Traffic)
 - Use Remote Desktop to connect to your Windows 10 Virtual Machine
@@ -71,7 +71,7 @@ Part 2 (Observe ICMP Traffic)
 - Observe ping requests and replies within WireShark
 - From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/i0aVqUV.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
 - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
@@ -91,7 +91,7 @@ Part 3 (Observe SSH Traffic)
 - From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
 - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
 - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J2QIZ9X.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Part 4 (Observe DHCP Traffic)
 - Back in Wireshark, filter for DHCP traffic only
@@ -105,13 +105,13 @@ Part 5 (Observe DNS Traffic)
 - From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
 - Observe the DNS traffic being show in WireShark
   
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/q8ZJnAL.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 Part 6 (Observe RDP Traffic)
 - Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 - <b>Bonus!</b> Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UhddGCd.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 - Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 
